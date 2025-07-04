@@ -6,12 +6,12 @@ import { ProductsProvider } from "@/app/Context/ProductsContext";
 
 export default function ArticlesLayout({ children }) {
     useEffect(() => {
-        const existingScript = document.getElementById("tvs6gtu4v52y91qpdmd14vhh82kv4iod");
+        const existingScript = document.getElementById("DK8xTLKXP8uEjQajwYI3w");
         if (existingScript) return;
 
         const script = document.createElement("script");
         script.src = "https://www.chatbase.co/embed.min.js";
-        script.id = "tvs6gtu4v52y91qpdmd14vhh82kv4iod";
+        script.id = "DK8xTLKXP8uEjQajwYI3w";
         script.domain = "www.chatbase.co";
         document.body.appendChild(script);
     }, []);
